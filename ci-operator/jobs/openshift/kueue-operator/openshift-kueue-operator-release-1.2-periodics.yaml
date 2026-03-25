@@ -19,7 +19,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
@@ -93,7 +93,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
@@ -169,7 +169,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
@@ -247,7 +247,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
@@ -324,7 +324,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
@@ -397,7 +397,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
@@ -473,7 +473,7 @@ periodics:
       - failure
       - error
       report_template: ':failed: Job *{{.Spec.Job}}* ended with *{{.Status.State}}*.
-        <{{.Status.URL}}|View logs> {{end}}'
+        <{{.Status.URL}}|View logs>'
   spec:
     containers:
     - args:
